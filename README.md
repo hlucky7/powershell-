@@ -1,5 +1,5 @@
 # powershell-
-###安装命令
+安装命令
 
 ```
 Install-Module oh-my-posh -Scope CurrentUser -SkipPublisherCheck
@@ -8,9 +8,12 @@ Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -Skip
 Install-Module -Name Terminal-Icons -Repository PSGallery
 ```
 
-notepad.exe $PROFILE
-
 设置profile
+```
+notepad.exe $PROFILE
+```
+
+
 
 ```
 Import-Module posh-git
