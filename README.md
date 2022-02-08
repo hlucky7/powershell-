@@ -4,8 +4,8 @@
 ```
 Install-Module oh-my-posh -Scope CurrentUser -SkipPublisherCheck
 Install-Module posh-git -Scope CurrentUser
-Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck	//自动命令补全
-Install-Module -Name Terminal-Icons -Repository PSGallery	//安装文件图标库
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck	# 自动命令补全
+Install-Module -Name Terminal-Icons -Repository PSGallery	# 安装文件图标库
 ```
 
 ### 设置profile
